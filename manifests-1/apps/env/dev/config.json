@@ -1,7 +1,0 @@
-{
-  "owner": "cluster-admin@company.com",
-  "name": "production",
-  "cluster_address": {
-    "bj": "https://172.20.179.222:6443"
-  }
-}

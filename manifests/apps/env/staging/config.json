@@ -2,6 +2,6 @@
   "owner": "cluster-admin@company.com",
   "name": "staging",
   "cluster_address": {
-    "bj": "https://172.20.179.240:6443"
+    "bj": "https://172.20.180.61:6443"
   }
 }
