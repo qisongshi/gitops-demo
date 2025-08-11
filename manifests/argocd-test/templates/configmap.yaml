@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ include "argocd-test-configmap.fullname" . }}
+  labels:
+    {{- include "argocd-test-configmap.labels" . | nindent 4 }}
+data:
+  config.properties: |
+    name={{ include "argocd-test-configmap.fullname" . }}
+    
+    config.example1={{ .Values.config.example1 }}
+    config.example2={{ .Values.config.example2 }}
+    config.example3={{ .Values.config.example3 }}
+    config.example4={{ .Values.config.example4 }}
+    config.example5={{ .Values.config.example5 }}
+    
+    config.instance1={{ .Values.config.instance1 }}
+    config.instance2={{ .Values.config.instance2 }}
+    config.instance3={{ .Values.config.instance3 }}
+    config.instance4={{ .Values.config.instance4 }}
+    config.instance5={{ .Values.config.instance5 }}
+    
+    config.data1={{ .Values.config.data1 }}
+    config.data2={{ .Values.config.data2 }}
+    config.data3={{ .Values.config.data3 }}
+    config.data4={{ .Values.config.data4 }}
+    config.data5={{ .Values.config.data5 }}
