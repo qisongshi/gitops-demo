@@ -1,0 +1,20 @@
+name: "my-config"
+
+config:
+  example1: "value-example0-with-padding-content-for-size-9876543210"
+  example2: "value-example2-with-padding-content-for-size-0123456789"
+  example3: "value-example3-with-padding-content-for-size-0123456789"
+  example4: "value-example4-with-padding-content-for-size-0123456789"
+  example5: "value-example5-with-padding-content-for-size-0123456789"
+  
+  instance1: "config-instance1-with-padding-content-for-size-0123456789"
+  instance2: "config-instance2-with-padding-content-for-size-0123456789"
+  instance3: "config-instance3-with-padding-content-for-size-0123456789"
+  instance4: "config-instance4-with-padding-content-for-size-0123456789"
+  instance5: "config-instance5-with-padding-content-for-size-0123456789"
+  
+  data1: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+  data2: "Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+  data3: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+  data4: "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum"
+  data5: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"
