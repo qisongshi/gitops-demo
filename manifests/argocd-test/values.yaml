@@ -1,7 +1,7 @@
 name: "my-config"
 
 config:
-  example1: "value-example0-with-padding-content-for-size-9876543210"
+  example1: "value-example0-with-padding-content-for-size-0123456789"
   example2: "value-example2-with-padding-content-for-size-0123456789"
   example3: "value-example3-with-padding-content-for-size-0123456789"
   example4: "value-example4-with-padding-content-for-size-0123456789"
